@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: white;
+    height: 5vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    
+}
+nav ul{
+    display: flex;
+    padding: 1px;
+    float: right;
+
+}
+nav ul li{
+    margin: 10px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    
+}
+
+#Badan1{
+    height: 100vh;
+}
+
+.gam{
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+
+.ds{  
+    color: white;
+    position: relative;
+    /* top : 150px; */
+    left: 550px;
+    bottom: 460px;
+}
+@font-face{
+    font-family: 'Monstserrat (Bold)';
+    src: url(Font/Montserrat-Black.ttf)
+}
+
+@font-face{
+    font-family: 'Monstserrat (semi -Bold)';
+    src: url(Font/Montserrat-SemiBold.ttf)
+}
+
+@font-face{
+    font-family: 'Josefin sans (regular)';
+    src: url(login_page/font/Montserrat-ExtraBold.otf)
+}
+.ju{
+    font-family: 'Monstserrat (semi -Bold)';
+    font-size: 150px;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.ds{
+    font-family: 'Josefin sans (regular)';
+    font-size: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'josefin sans';
+}
+
+.masuk{
+    position: relative;
+    left: 150px;
+    Border: 1px solid #fff;
+    color: white;
+    background-color: red;
+    font-size: 21px; 
+    padding: 10px 20px;
+}
+
+.gam2{
+    position: absolute;
+    bottom: 490px;
+    left: 1150px;
+}
+
+.gam3{
+    position: absolute;
+    top:510px;
+    left: 1150px;
+}
+
+.Gambar{
+    display: flex;
+}
+
+div h1{
+    text-align: center;
+    color: white;
+    font-family: 'Monstserrat (semi -Bold)';
+
+}
+
+
+div .Gambar{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1em;
+}
+
+.compu{
+    margin-top: 20px;
+    height: 100vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: 'Gambar1' 
+    'Tulisan1'
+    'Tulisan2' 
+    'Gambar2' 
+    ;
+}
+
+}
